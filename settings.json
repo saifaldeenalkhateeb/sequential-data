@@ -1,5 +1,6 @@
 [
     {
+        "simple_model_name": "one hot encoding using SimpleRNN",
         "is_masked": false,
         "is_using_glove": false,
         "gru": false,
@@ -13,6 +14,7 @@
         "path_to_glove_file": "glove.6B.100d.txt"
     },
     {
+        "simple_model_name": "one hot encoding using GRU",
         "is_masked": false,
         "is_using_glove": false,
         "gru": true,
@@ -26,6 +28,7 @@
         "path_to_glove_file": "glove.6B.100d.txt"
     },
     {
+        "simple_model_name": "one hot encoding using LSTM",
         "is_masked": false,
         "is_using_glove": false,
         "gru": false,
@@ -39,6 +42,7 @@
         "path_to_glove_file": "glove.6B.100d.txt"
     },
     {
+        "simple_model_name": "keras embedding using SimpleRNN",
         "is_masked": false,
         "is_using_glove": false,
         "gru": false,
@@ -52,6 +56,7 @@
         "path_to_glove_file": "glove.6B.100d.txt"
     },
     {
+        "simple_model_name": "keras embedding using GRU",
         "is_masked": false,
         "is_using_glove": false,
         "gru": true,
@@ -65,6 +70,7 @@
         "path_to_glove_file": "glove.6B.100d.txt"
     },
     {
+        "simple_model_name": "keras embedding using LSTM",
         "is_masked": false,
         "is_using_glove": false,
         "gru": false,
@@ -78,6 +84,7 @@
         "path_to_glove_file": "glove.6B.100d.txt"
     },
     {
+        "simple_model_name": "masking & keras embedding using SimpleRNN",
         "is_masked": true,
         "is_using_glove": false,
         "gru": false,
@@ -91,6 +98,7 @@
         "path_to_glove_file": "glove.6B.100d.txt"
     },
     {
+        "simple_model_name": "masking & keras embedding using GRU",
         "is_masked": true,
         "is_using_glove": false,
         "gru": true,
@@ -104,6 +112,7 @@
         "path_to_glove_file": "glove.6B.100d.txt"
     },
     {
+        "simple_model_name": "masking & keras embedding using LSTM",
         "is_masked": true,
         "is_using_glove": false,
         "gru": false,
@@ -117,6 +126,7 @@
         "path_to_glove_file": "glove.6B.100d.txt"
     },
     {
+        "simple_model_name": "masking & glove embedding using SimpleRNN",
         "is_masked": true,
         "is_using_glove": true,
         "gru": false,
@@ -130,6 +140,7 @@
         "path_to_glove_file": "glove.6B.100d.txt"
     },
     {
+        "simple_model_name": "masking & glove embedding using GRU",
         "is_masked": true,
         "is_using_glove": true,
         "gru": true,
@@ -143,6 +154,7 @@
         "path_to_glove_file": "glove.6B.100d.txt"
     },
     {
+        "simple_model_name": "masking & glove embedding using LSTM",
         "is_masked": true,
         "is_using_glove": true,
         "gru": false,
